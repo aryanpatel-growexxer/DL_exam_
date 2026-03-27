@@ -16,12 +16,22 @@ Predict whether a patient will be readmitted within 30 days of discharge using s
 
 **Architecture:**
 <!-- Describe your network: layer sizes, activations, regularisation -->
+It consits of 2 hidden layer
+Input layer : 14 features
+Hidden first : 64 neurons 
+Hidden second : 32 neurons 
+Output layer : 1 layer 
+Their is a Batchnorm in each layer.
 
 **Key preprocessing decisions:**
 <!-- Summarise the most important choices — 2–3 sentences -->
+I have removed the date , day of week.
+I have encoded categorical data
+I have imputed age and glucose data.
 
 **How I handled class imbalance:**
 <!-- What technique and why -->
+I have upsampled to train the model to handle with class imbalance.
 
 ---
 
