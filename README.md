@@ -29,11 +29,11 @@ Predict whether a patient will be readmitted within 30 days of discharge using s
 
 | Metric | Value |
 |--------|-------|
-| AUROC | |
-| F1 (minority class) | |
-| Precision (minority) | |
-| Recall (minority) | |
-| Decision threshold used | |
+| AUROC | 0.65 |
+| F1 (minority class) | 0.62 |
+| Precision (minority) | 0.61 |
+| Recall (minority) | 0.64 |
+| Decision threshold used | 0.7 |
 
 ---
 
