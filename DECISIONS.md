@@ -10,6 +10,8 @@ The question to answer is not "what does this technique do" — it is "why did Y
 *Complete after Phase 1 (by approximately 1:30)*
 
 **What I did:**
+1. I have removed patient id , date , discharge week day.
+2. Labelencoded gender and insurance type 
 
 
 **Why I did it (not why the technique works — why THIS choice given what you observed in the data):**
@@ -27,15 +29,17 @@ The question to answer is not "what does this technique do" — it is "why did Y
 *Complete after Phase 2 (by approximately 3:00)*
 
 **What I did:**
-
+1. Model is trained using the upsampled data using smote.
 
 **Why I did it (not why the technique works — why THIS choice given what you observed in the data):**
-
+1. As the data is imbalanced I have upsampled minor class.
+   
 
 **What I considered and rejected:**
 
 
 **What would happen if I was wrong here:**
+1. As the data is imbalanced that's why I have upsampled to balance the data.
 
 
 ---
@@ -44,7 +48,7 @@ The question to answer is not "what does this technique do" — it is "why did Y
 *Complete after Phase 3 (by approximately 4:00)*
 
 **What I did:**
-
+1. 
 
 **Why I did it (not why the technique works — why THIS choice given what you observed in the data):**
 
