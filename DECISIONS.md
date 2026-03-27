@@ -48,9 +48,11 @@ The question to answer is not "what does this technique do" — it is "why did Y
 *Complete after Phase 3 (by approximately 4:00)*
 
 **What I did:**
-1. 
+1. Evaluation metric is Binary cross entropy.
+2. Threshold value is 0.7.
 
 **Why I did it (not why the technique works — why THIS choice given what you observed in the data):**
+1. As we need output among 2 classes.
 
 
 **What I considered and rejected:**
